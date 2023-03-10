@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+.app{
+  background-color: #161622;
+
+}
+h1{
+  font-weight: 600;
+  color: white;
+}
+h2{
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+
+}
+h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+p{
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  color: #acacac;
+}
+@media screen and (max-width:970px){
+  h1{
+    font-size: 30px;
+  }
+}
